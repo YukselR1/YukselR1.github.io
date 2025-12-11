@@ -42,3 +42,5 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     reveal(); // İlk yüklemede görünenleri aç
 });
+// Footer'daki yılı otomatik olarak güncel yıl (2025, 2026...) yapar
+document.getElementById("year").textContent = new Date().getFullYear();
